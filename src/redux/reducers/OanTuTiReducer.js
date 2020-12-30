@@ -7,7 +7,7 @@ const defaultReducer = {
         value: "keo",
         imgSrc: "./images/game_oanTuTi/keo.png"
     },
-    notice: "I'm iron man, i love you 3000 !!",
+    notice: "",
     soBanThang: 0,
     soBanChoi: 0
 }
