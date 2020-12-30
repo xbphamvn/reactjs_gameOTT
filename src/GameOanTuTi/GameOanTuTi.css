@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Pony';
+    src: url('../fonts/Pony.ttf');
+}
+.gameOTT {
+    background-image: url('../assets/img_ott/bgGame.png');
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Pony';
+}
+
+.speech__bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+    width: fit-content;
+    margin: auto;
+}
+
+.person__choosen {
+	height: 36px;
+}
+
+.computer__choosen {
+	height: 36px;
+	transform: rotate(120deg);
+}
+
+.speech__bubble::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+
+.playerAvatar {
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 12px auto 5px;
+}
+
+.gameOTT__notice {
+	font-size: 45px;
+	color: orange;
+	line-height: 50px;
+}
+
+.gameOTT__result {
+	font-size: 36px;
+	color: palegreen;
+}
